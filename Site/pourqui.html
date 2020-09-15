@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="Anthony Collette">
+        <meta name="copyright" content="Effet Animal">
+        <meta name="keywords" content="">
+        <title>Effet Animal</title>
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="menu.js"></script>
+    
+        <script>
+            var wow = new WOW(
+                {
+                    boxClass: 'wow',      // animated element css class (default is wow)
+                    animateClass: 'animated', // animation css class (default is animated)
+                    offset: 0,          // distance to the element when triggering the animation (default is 0)
+                    mobile: true,       // trigger animations on mobile devices (default is true)
+                    live: true,       // act on asynchronously loaded content (default is true)
+                    callback: function (box) {
+                        // the callback is fired every time an animation is started
+                        // the argument that is passed in is the DOM node being animated
+                    },
+                    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                    resetAnimation: true,     // reset animation on end (default is true)
+                }
+            );
+            wow.init();
+        </script>
+    </head>
+    
+    <body>
+    
+        <nav class="navbar navbar-expand navbar-dark bg-info2">
+            <div class="container-fluid">
+            <a class="navbar-brand pb-2" href="index.html"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav align-self-end" id="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mediation.html">MEDIATION ANIMALE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="seances.html">SEANCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="avecqui.html">AVEC QUI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link actif" href="pourqui.html">POUR QUI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prevention.html">PREVENTION MORSURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="commentaire.php">LIVRE D'OR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://effetanimalmediation">ACTU</a>
+                    </li>
+                 
+                    <li class="nav-item dropdown d-none">
+                        <a class="nav-link dropdown-toggl" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span class="navbar-toggler-icon"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right bg-info2" aria-labelledby="navbarDropdownMenu">
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+    <div class="container-fluid" style="overflow: auto;">
+        <div class="row">
+            <div class="background">
+                <h2 class="text-center wow fadeIn">Pour qui ?</h2>
+                <h3 class="text-center wow slideInLeft" style="animation-delay: 0.1s;">ENFANCE ET JEUNESSE</h3>
+                <div class="offset-md-2 col-md-8" style="margin-top: 4%;">
+                    <div class="chat wow fadeInRight" style="animation-delay: 0.3s;"><img src="images/chat.png" /></div>
+                    <p class="wow slideInLeft">Influence des animaux sur les enfants :<br />
+                        Au contact des animaux, les enfants apprennent la joie de vivre, l'humour et l'optimisme. Les
+                        animaux sont une <span class="mea">invitation</span> au rire et au jeu.<br />
+                        Ils stimulent ainsi la sécrétion d'endorphines dans le cerveau, ce qui rend plus heureux,
+                        atténue la sensation de
+                        douleur et réduit le stress." (Dr. McCulloch)<br /><br />
+
+                        L’enfant se sent à l’aise, il peut tout lui confier.<br />
+                        Les caresses et les câlins permettent de développer le toucher, la <span class="mea">confiance
+                            en soi</span> et les
+                        relations avec les autres.
+                        La présence d’un animal contribue à la <span class="mea">stabilité émotionnelle</span>.<br />
+                        L'animal valorise les points forts de l'enfant et non ses faiblesses :<br />
+                        L'animal provoque des sentiments forts d’amour, d'attachement (animaux familiers...) mais aussi
+                        éventuellement de
+                        dégoûts : la communication se fait par le langage des émotions qui est le langage de
+                        l’enfant.<br /><br />
+
+                        L'animal n'a <span class="mea">aucun jugement social</span>, il n'est pas normatif :<br />
+                        la relation entre l’enfant et l’animal est dénuée de toute norme ou valeur sociale. L’animal ne
+                        juge pas, il accueillera
+                        l’enfant ou l’adolescent avec joie sans se préoccuper de son apparence, de la façon dont il est
+                        habillé, des notes qu’il
+                        aura eu à l’école…<br />
+                        L’enfant va s’entrainer à la <span class="mea">relation avec l’autre</span>. L’animal sera le
+                        confident de l’enfant.<br />
+                        L’animal permet aussi à l’enfant d’appréhender la naissance, le sens de la vie, la maladie, la
+                        vieillesse et la mort.<br />
+                        Une véritable bouffée d’oxygène et l’occasion de découvrir les animaux.<br /><br /></p>
+
+                    <p class="text-center wow fadeIn"><span style="font-style: italic">Une approche individualisée et personnalisé
+                            pour soutenir le développement de l’enfant. Un jeu
+                            de miroir pour apprendre…</span><br />
+                        CE LIEN ENTRE L’ENFANT ET L’ANIMAL SOURCE DE TANT DE POSSIBLES (Daniel Marcelli).</p>
+                </div>
+                <h3 class="text-center wow slideInLeft" style="animation-delay: 0.1s;">HANDICAP</h3>
+                <div class="offset-md-2 col-md-8 text-center" style="margin-top: 4%;">
+                    <p class="wow slideInLeft" style="line-height: 200%;">L’animal AGIT COMME UN FACILITATEUR RELATIONNEL.<br />
+                        L’animal favorise les interactions, la confiance en soi.<br />
+                        Sa présence encourage le rire et réconforte. Il permet à la personne de se concentrer sur une
+                        tâche.<br />
+                        La médiation animale peut alors <span class="mea">renforcer les apprentissages</span> et la
+                        rééducation des gestes du quotidien.</p>
+                    <img src="images/chienhumain.png" class="img-fluid wow fadeIn text-center"
+                        style="margin-top: 6%; animation-delay: 0.3s;" />
+                </div>
+
+                <h3 class="text-center wow slideInLeft" style="animation-delay: 0.1s;">AUTISME ET TROUBLES ENVAHISSANTS
+                    DU COMPORTEMENT</h3>
+                <div class="offset-md-2 col-md-8 text-center" style="margin-top: 4%;">
+                    <p class="wow slideInLeft" style="line-height: 200%;">La présence de l’animal offre un <span class="mea">environnement multi
+                            sensoriel</span>.<br />
+                        Il encourage la communication et les apprentissages.<br />
+                        L’animal médiateur incite l’enfant à faire, à développer une relation avec l’autre, à développer
+                        une certaine <span class="mea">autonomie</span>, il facilite aussi l’apprentissage du langage,
+                        et aide à structurer son
+                        environnement.</p>
+                    
+                    <div class="cochon wow fadeIn" style="animation-delay: 0.5s;"><img src="images/cochon.png"/></div>
+                    <h3 class="text-center wow slideInRight" style="animation-delay: 0.1s;">PERSONNES ÂGÉES</h3>
+                    <p class="wow slideInRight" style="margin-top: 8%;"><span class="mea">Mémoire et affectivité</span> ressurgissent grâce à ce contact simple et chaleureux qui soulage, apaise
+                        et réconforte... <br/>
+                        Les personnes âgées redécouvrent grâce à l’animal des gestes spontanés (toilettage, caresse,
+                        lancer une balle).<br/><br/><br/>
+
+
+
+                        <span style="font-style: italic">Un des résultats est un moment de douceur favorisant un <span class="mea">sentiment d’utilité</span> et d’estime
+                        d’eux-mêmes.
+                        <span class="mea">L’animal brise la solitude</span> et il aide à reprendre contact avec ses émotions.
+
+                        Quand un humain vous regarde, cela peut être source d’inquiétude car il s’attend à quelque
+                        chose. Mais quand un animal vous regarde, il offre son regard avec innocence, bonté, et
+                        <span class="mea">bienveillance</span>.</span>
+                    </p>
+                </div>
+
+            </div>
+            
+        </div>
+        <footer class="sticky-footer">
+            <div class="container text-center bas">© Textes & images de Jennifer Poli <br />
+                © Site par <a href="http://www.anthonycollette.fr">Anthony Collette</a><br />
+                Mentions légales</div>
+                </footer>
+
+    </div>
+</body>
+
+</html>

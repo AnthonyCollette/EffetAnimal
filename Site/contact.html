@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="Anthony Collette">
+        <meta name="copyright" content="Effet Animal">
+        <meta name="keywords" content="">
+        <title>Effet Animal</title>
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="menu.js"></script>
+    
+        <script>
+            var wow = new WOW(
+                {
+                    boxClass: 'wow',      // animated element css class (default is wow)
+                    animateClass: 'animated', // animation css class (default is animated)
+                    offset: 0,          // distance to the element when triggering the animation (default is 0)
+                    mobile: true,       // trigger animations on mobile devices (default is true)
+                    live: true,       // act on asynchronously loaded content (default is true)
+                    callback: function (box) {
+                        // the callback is fired every time an animation is started
+                        // the argument that is passed in is the DOM node being animated
+                    },
+                    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                    resetAnimation: true,     // reset animation on end (default is true)
+                }
+            );
+            wow.init();
+        </script>
+    </head>
+    
+    <body>
+    
+        <nav class="navbar navbar-expand navbar-dark bg-info2">
+            <div class="container-fluid">
+            <a class="navbar-brand pb-2" href="index.html"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav align-self-end" id="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mediation.html">MEDIATION ANIMALE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="seances.html">SEANCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="avecqui.html">AVEC QUI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pourqui.html">POUR QUI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prevention.html">PREVENTION MORSURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link actif" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="commentaire.php">LIVRE D'OR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://effetanimalmediation">ACTU</a>
+                    </li>
+                 
+                    <li class="nav-item dropdown d-none">
+                        <a class="nav-link dropdown-toggl" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span class="navbar-toggler-icon"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right bg-info2" aria-labelledby="navbarDropdownMenu">
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+    <div class="row">
+        <div class="background">
+            <div class="col-md-12 text-center" style="margin-top: 8%; margin-bottom: 10%;">
+                <p class="wow fadeIn" style="text-align:inherit">Pour toute demande d'informations, vous pouvez me contacter par téléphone
+                    ou par email.<br /><br /><br />
+
+                    <span
+                        style="background-color: #74b42b; font-size: 20px; color: #fff; font-weight: bold; padding-left: 0.5%; padding-right: 0.5%;">Tarifs
+                        uniquement sur demande.</span><br /><br /><br />
+
+                    Jennifer POLI<br /><br />
+                    <i class="fa fa-phone" style="margin-right: 0.5%;"></i>06.19.45.65.95<br /><br />
+                    <i class="fa fa-envelope" style="margin-right: 0.5%;"></i>jennifer@effetanimal.com</p>
+                    <img src="images/chonfete.png" style="margin-top: 4%;" class="wow fadeIn"/>
+            </div>
+            <footer class="sticky-footer">
+                <div class="container text-center bas">© Textes & images de Jennifer Poli <br />
+                    © Site par <a href="http://www.anthonycollette.fr">Anthony Collette</a><br />
+                    <a href="mentions.html">Mentions légales</a></div>
+            </footer>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://use.fontawesome.com/735b7c5385.js"></script>
+</body>
+
+</html>

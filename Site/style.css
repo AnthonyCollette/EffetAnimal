@@ -1,0 +1,279 @@
+@font-face {
+    font-family: "Patua One";
+    src: url(/PatuaOne-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url(/Lora-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url(/Lora-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url(/Lora-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url(/Lora-Regular.ttf);
+    font-weight: normal;
+}
+
+.menuparent {
+    background-color: #74b42b; 
+    height: 80px;
+}
+
+.menu {
+    height: 80px;
+    padding-top: 26px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    color: #74b42b;
+    background-color: #fff;
+}
+
+.logo {
+    padding-left: 60px;
+    text-align: center;
+}
+
+.lapinenfant {
+    max-height: 100%;
+}
+
+h1 {
+    font-family: "Lora";
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: -18%;
+    margin-left: 24%;
+    font-size: 1.8vw;
+}
+
+h2 {
+    font-family: "Lora" !important;
+    font-style: italic !important;
+    font-weight: bold !important;
+    color: #74b42b !important;
+    text-decoration: underline !important;
+    margin-top: 6%;
+}
+
+.logohome {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-top: 8%;
+    margin-left: 25%;
+}
+
+.dicton {
+    max-height: 60%;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.background {
+    background-color: #eaf4e1;
+    width: 100%;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.accueil {
+    margin-top: -48%;
+}
+
+p {
+    font-family: "Lora";
+    color: #74b42b;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.mea {
+    background-color: #74b42b;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sticky-footer {
+    background-color: #b4c6a5;
+    color: #fff;
+}
+
+.container {
+    padding: 20px 0px 20px 0px;
+}
+
+.titre {
+    font-size: 24px;
+}
+
+.lapin2 {
+    float: right;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+.texte {
+    width: 85%;
+}
+
+.enfantchon {
+    float: left;
+    margin-right: 4%;
+}
+
+.liste {
+    font-family: "Lora";
+    color: #74b42b; 
+}
+
+.souligne {
+    text-decoration: underline;
+}
+
+.chinchilla {
+    float: right;
+    padding-right: 22%;
+    padding-top: 4%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border-width: 1px;
+    border-color: #74b42b;
+}
+
+h3 {
+    margin-top: 6%;
+    font-size: 24px;
+    color: #74b42b;
+    font-family: "Lora";
+    font-weight: bold;
+}
+
+.chat {
+    float: right;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+
+.cochon {
+    float: left;
+    margin-top: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+
+.chien1 {
+    float: right;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+
+.girl {
+    float: left;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+
+.titrementions {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+
+.navbar {
+    height: 80px;
+}
+
+.bg-info2 {
+    background-color: #74b42b;
+}
+
+.bg-info2 .show {
+    background-color: #74b42b;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #fff !important;
+}
+
+ul li a {
+    color: #fff !important;
+    font-family: "Patua One";
+    padding: 2em 1em;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    color: #74b42b !important;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.actif {
+    color: #74b42b !important;
+    background-color: #fff;
+}
+
+

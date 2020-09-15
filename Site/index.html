@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="effet animal" href="http://effetanimal.fr">
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Anthony Collette">
+    <meta name="copyright" content="Effet Animal">
+    <meta name="keywords" content="">
+    <title>Effet Animal</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="menu.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+        var wow = new WOW(
+            {
+                boxClass: 'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset: 0,          // distance to the element when triggering the animation (default is 0)
+                mobile: true,       // trigger animations on mobile devices (default is true)
+                live: true,       // act on asynchronously loaded content (default is true)
+                callback: function (box) {
+                    // the callback is fired every time an animation is started
+                    // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                resetAnimation: true,     // reset animation on end (default is true)
+            }
+        );
+        wow.init();
+    </script>
+
+<script>
+    window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#fff",
+                    "text": "#74b42b"
+                },
+                "button": {
+                    "background": "#74b42b",
+                    "text": "#fff"
+                }
+            },
+            "theme": "classic",
+            "content": {
+                "message": "Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site.",
+                "dismiss": "Autoriser les cookies",
+                "deny": "Refuser",
+                "link": "En savoir plus !",
+                "href": ""
+            }
+        })
+    });
+</script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand navbar-dark bg-info2">
+        <div class="container-fluid">
+        <a class="navbar-brand pb-2" href="index.html"><img src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav align-self-end" id="nav">
+                <li class="nav-item">
+                    <a class="nav-link actif" href="index.html">ACCUEIL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mediation.html">MEDIATION ANIMALE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="seances.html">SEANCES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="avecqui.html">AVEC QUI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pourqui.html">POUR QUI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="prevention.html">PREVENTION MORSURES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="commentaire.php">LIVRE D'OR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://effetanimalmediation.blogspot.com">ACTU</a>
+                </li>
+             
+                <li class="nav-item dropdown d-none">
+                    <a class="nav-link dropdown-toggl" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="navbar-toggler-icon"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right bg-info2" aria-labelledby="navbarDropdownMenu">
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="lapinenfant"><img src="images/lapinenfant.jpg" style="max-width: 100%;" /></div>
+            <div class="text-center accueil">
+                <img src="images/logohome.png" class="logohome text-center wow fadeIn">
+            </div>
+            <h1 class="wow fadeIn" style="animation-delay: 0.5s;">Offrez un moment de partage unique entre l'homme et
+                l'animal</h1>
+
+            <div class="background">
+                <div class="row wow fadeIn" style="margin-left: 5%; margin-top: 4%; animation-delay: 0.2s;">
+                    <div class="col-lg-4 col-md-8"><img src="images/langueauchat.png" class="img-fluid dicton" /></div>
+                    <div class="col-lg-4 col-md-8"><img src="images/poildelabete.png" class="img-fluid dicton" /></div>
+                    <div class="col-lg-4 col-md-8"><img src="images/stress.png" class="img-fluid dicton" /></div>
+                </div>
+
+
+
+
+
+                <div class="row">
+                    <div class="offset-md-2 col-md-8 text-center wow slideInLeft">
+                        <p>Passionnée depuis toute jeune par l’Humain et l’Animal, j’ai décidé de me spécialiser en tant
+                            qu’intervenante en médiation animale auprès de l’institut Agatea
+                            afin d’apporter des services de qualité à toute personne que j’accompagne.<br /><br />
+
+                            Je me déplace avec mes compagnons à poils et à plumes dans <span class="mea">vos
+                                structures</span> ou à <span class="mea">votre domicile</span> dans le département des
+                            Alpes Maritimes et du Var.<br /><br />
+
+                            <span class="mea">Effet animal</span>, s’inscrit dans l’univers du soin, avec une offre de
+                            thérapie douce assistée par l’animal.<br /><br />
+
+                            Je vous propose des séances individuelles ou en groupe dans le cadre thérapeutique ou sous
+                            forme d’animations afin de maintenir ou d’améliorer la santé et le
+                            moral des personnes souffrant de divers troubles, aussi bien physiques que cognitifs mais
+                            aussi psychologiques et sociaux assistés par un ou plusieurs animaux
+                            consciencieusement choisis et entraînés.<br /><br />
+
+                            Une bulle de tendresse et d’amour construit dans le respect de l’autre pour tous publics et
+                            pour tous les âges avec ou sans difficulté, ou avec ou sans un handicap.<br />
+                            DES ANIMAUX MÉDIATEURS auprès de ceux qui souffrent. <br /><br />
+
+                            <span class="mea">Un climat favorable</span>, sécurisant afin de développer de nouveaux
+                            liens pour travailler de façon détournée les objectifs thérapeutiques des personnes
+                            fragilisées
+                            au travers d’ateliers ludiques. <br /> <br /> <br /> <br /></p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    <footer class="sticky-footer">
+        <div class="container text-center bas">© Textes & images de Jennifer Poli <br />
+            © Site par <a href="http://www.anthonycollette.fr">Anthony Collette</a><br />
+            <a href="mentions.html">Mentions légales</a></div>
+    </footer>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+
+</body>
+
+</html>

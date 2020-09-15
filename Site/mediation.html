@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="Anthony Collette">
+        <meta name="copyright" content="Effet Animal">
+        <meta name="keywords" content="">
+        <title>Effet Animal</title>
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="menu.js"></script>
+    
+        <script>
+            var wow = new WOW(
+                {
+                    boxClass: 'wow',      // animated element css class (default is wow)
+                    animateClass: 'animated', // animation css class (default is animated)
+                    offset: 0,          // distance to the element when triggering the animation (default is 0)
+                    mobile: true,       // trigger animations on mobile devices (default is true)
+                    live: true,       // act on asynchronously loaded content (default is true)
+                    callback: function (box) {
+                        // the callback is fired every time an animation is started
+                        // the argument that is passed in is the DOM node being animated
+                    },
+                    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                    resetAnimation: true,     // reset animation on end (default is true)
+                }
+            );
+            wow.init();
+        </script>
+    </head>
+    
+    <body>
+    
+        <nav class="navbar navbar-expand navbar-dark bg-info2">
+            <div class="container-fluid">
+            <a class="navbar-brand pb-2" href="index.html"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav align-self-end" id="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link actif" href="mediation.html">MEDIATION ANIMALE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="seances.html">SEANCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="avecqui.html">AVEC QUI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pourqui.html">POUR QUI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prevention.html">PREVENTION MORSURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="commentaire.php">LIVRE D'OR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://effetanimalmediation">ACTU</a>
+                    </li>
+                 
+                    <li class="nav-item dropdown d-none">
+                        <a class="nav-link dropdown-toggl" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span class="navbar-toggler-icon"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right bg-info2" aria-labelledby="navbarDropdownMenu">
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+    <div class="container-fluid" style="overflow: auto;">
+        <div class="row">
+            <div class="background">
+
+                <h2 class="text-center wow fadeIn">Qu'est-ce que la médiation animale ?</h2>
+
+                <div class="row" style="margin-top: 6%;">
+                    <div class="offset-md-2 col-md-8">
+                        <div class="lapin2 wow fadeInRight" style="animation-delay: 1s;"><img src="images/lapin.png" style="max-height: 500px;" /></div>
+                        <p><span class="titre wow fadeIn" style="animation-delay: 0.5s;">Définition de la Médiation animale</span><br /><br /></p>
+                        <p class="wow fadeIn" style="animation-delay: 1s;">
+                            <span style="font-style: italic;">« Le terme de médiation animale désigne la recherche des
+                                interactions positives issues de la mise en relation
+                                intentionnelle homme-animal dans les domaines éducatifs, thérapeutiques ou sociaux,
+                                pratiques telles qu’elles sont
+                                conduites dans les institutions éducatives et médico-sociales entre autres.
+                                »</span><br />
+                            Définition d’Adrienne et Pierre Sommer.<br /><br />
+
+
+                            Depuis très longtemps, les hommes ont un lien d’interdépendance avec les animaux. La
+                            première collaboration thérapeutique unissant l’homme et l’animal remonte au 17
+                            siècle.<br /><br />
+
+                            Cette méthode favorise les liens naturels et bienfaisants existants entre les humains et les
+                            animaux à des fins
+                            préventives et thérapeutiques.<br /><br />
+
+                            Cette interaction entre les humains et les animaux favorise l’établissement de liens
+                            émotionnels et bien souvent des liens d’attachement qui sont nécessaires au développement
+                            harmonieux de l’homme.<br /><br />
+
+                            L’animal ne juge pas et nous témoigne toujours la même sympathie. <br /><br />
+
+                            La médiation animale est une technique qui permet de créer des liens dans une <span
+                                class="mea">relation triadique</span>. <br />
+                            (Intervenant, participant, animal).<br /><br />
+
+                            Nous parlons de médiation, car l’animal devient un agent transitionnel entre la personne et
+                            les professionnels.<br /> <br />
+
+                            L’animal est un fabuleux médiateur parce qu’il est spontané, il accueillera la personne avec
+                            joie, sans se préoccuper de son apparence, de la façon dont
+                            elle est habillée.<br /><br />
+
+                            L’animal deviendra alors un <span class="mea">confident</span>. <br /><br />
+
+                            Il est capable de <span class="mea">réciprocité</span> et d’<span
+                                class="mea">affection</span>, la personne entre en lien avec l’animal par le contact, le
+                            regard mutuel. <br /><br />
+
+                            Quand un humain vous regarde, cela peut être source d’inquiétude car il s’attend à quelque
+                            chose. Mais quand un animal vous regarde,
+                            il offre son regard avec l’innocence, la bonté, de la bienveillance.<br /><br />
+
+                            L'animal provoque des sentiments forts d’amour et d’attachement.<br /><br />
+
+                            L’attachement à l’animal va <span class="mea">valoriser</span> le participant <span
+                                class="mea">dans ses points forts et non dans ses faiblesses</span>.</p>
+                    </div>
+                    <div class="offset-md-2 col-md-8" style="margin-top: 2%;">
+                        <div class="enfantchon wow fadeInLeft" style="animation-delay: 0.3s;"><img src="images/enfantchon.png" /></div>
+                        <p class="wow fadeInRight" style="margin-top: 5%; animation-delay: 0.2s;"><span style="font-style: italic;">" L'animal par l'absence de langage
+                                verbal nous laisse tout l'espace psychique dont nous avons besoin. Son silence autant
+                                que l'absence de jugement de sa part,
+                                en fait un être attachant auprès de qui on peut aller chercher réconfort, amour, joie,
+                                et acceptation inconditionnelle. »</span>
+                            Georges-Henri Arenstein et  Genevieve Gilbert dans  la zoothérapie, une thérapie hors du
+                            commun, Editions Ressources , 2008.<br /> <br />
+
+                            La médiation animale est reconnue dans la cadre des thérapies non médicamenteuses par la
+                            haute autorité de santé (HAS) en France et par le ministère de la santé en Italie.</p>
+                    </div>
+                    <div class="offset-md-2 col-md-8 wow fadeInLeft" style="margin-top: 2%; animation-delay: 0.3s;">
+                        <p>La médiation animale offre de nombreux bienfaits, aujourd’hui démontrés par la recherche. Il
+                            est notamment prouvé qu’être en présence d’animaux aide à :</p>
+
+                        <ul class="liste">
+                            <li><span class="mea">baisser la pression sanguine</span> (Baun et al. 1984, Friedmann 1983, Grossberg et al. 1988)
+                            </li>
+                            <li><span class="mea">diminuer le rythme cardiaque</span> (DeShriver & Riddick 1990, Wilson 1987),</li>
+                            <li><span class="mea">réduire l’anxiété</span> (Wilson 1991),</li>
+                            <li><span class="mea">améliorer l’environnement social</span> (Brickel & Brickel 1980/1981, Mugford & M’Comisky
+                                1975),</li>
+                            <li><span class="mea">atténuer la dépression</span> (Bolin 1987).</li>
+                        </ul>
+
+
+                        <p>La médiation animale répond donc à la définition globale de la santé par l’OMS en agissant
+                            aussi bien sur notre <span class="mea">bien-être physique, mental & social</span>. </p>
+                    </div>
+                    <div class="offset-md-3 col-md-6 wow fadeIn" style="padding-left: 5%; margin-top: 4%; margin-bottom: 8%; animation-delay: 0.5s;">
+                    <img src="images/chien.png" class="img-fluid"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="sticky-footer">
+            <div class="container text-center bas">© Textes & images de Jennifer Poli <br />
+                © Site par <a href="http://www.anthonycollette.fr">Anthony Collette</a><br />
+                Mentions légales</div>
+        </footer>
+    </div>
+
+    </nav>
+
+</body>
+
+</html>

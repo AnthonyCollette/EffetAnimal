@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="Anthony Collette">
+        <meta name="copyright" content="Effet Animal">
+        <meta name="keywords" content="">
+        <title>Effet Animal</title>
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="menu.js"></script>
+    
+        <script>
+            var wow = new WOW(
+                {
+                    boxClass: 'wow',      // animated element css class (default is wow)
+                    animateClass: 'animated', // animation css class (default is animated)
+                    offset: 0,          // distance to the element when triggering the animation (default is 0)
+                    mobile: true,       // trigger animations on mobile devices (default is true)
+                    live: true,       // act on asynchronously loaded content (default is true)
+                    callback: function (box) {
+                        // the callback is fired every time an animation is started
+                        // the argument that is passed in is the DOM node being animated
+                    },
+                    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                    resetAnimation: true,     // reset animation on end (default is true)
+                }
+            );
+            wow.init();
+        </script>
+    </head>
+    
+    <body>
+    
+        <nav class="navbar navbar-expand navbar-dark bg-info2">
+            <div class="container-fluid">
+            <a class="navbar-brand pb-2" href="index.html"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav align-self-end" id="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mediation.html">MEDIATION ANIMALE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link actif" href="seances.html">SEANCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="avecqui.html">AVEC QUI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pourqui.html">POUR QUI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prevention.html">PREVENTION MORSURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="commentaire.php">LIVRE D'OR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://effetanimalmediation">ACTU</a>
+                    </li>
+                 
+                    <li class="nav-item dropdown d-none">
+                        <a class="nav-link dropdown-toggl" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span class="navbar-toggler-icon"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right bg-info2" aria-labelledby="navbarDropdownMenu">
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid" style="overflow: auto;">
+            <div class="row">
+                <div class="background">
+                    <h2 class="text-center wow fadeIn">Nos séances</h2>
+                    <div class="offset-md-2 col-md-8 wow fadeIn" style="margin-top: 6%; animation-delay: 0.5s;">
+                        <p>Il existe deux types de séances :<br />
+                            Les séances d’animation AAA-A et les séances à visées thérapeutiques AAA-T.<br /><br />
+
+                            Chaque séance est différente selon les personnes participantes. Les objectifs et les sous
+                            objectifs sont définis au préalable avec <span class="mea">l’équipe soignante</span>.<br /><br />
+
+                            La <span class="mea">collaboration</span> avec l’équipe permet de réévaluer les objectifs car il est important de ne
+                            pas
+                            mettre les patients en échec.<br /><br />
+
+                            <span class="souligne">Séances à visées ludiques ou animation AAA-A</span><br />
+
+                            Ce sont des moments de détente, de partage pendant lesquels les participants doivent prendre
+                            du
+                            <span class="mea">plaisir</span>. C’est un moment de <span class="mea">complicité</span>.<br /><br />
+
+                            <span class="souligne">Séances à visées thérapeutiques AAA – T</span><br />
+
+                            Elles consistent à travailler un ou plusieurs objectifs individuels par le biais de l’animal
+                            médiateur. Celles–ci peuvent être à visées thérapeutiques, social et éducatives.<br /><br />
+
+                            Avant de commencer un programme d’activités, il est important et même crucial de <span class="mea">préparer le
+                            projet en amont</span> avec l’équipe pluridisciplinaire, un professionnel du soin, la famille ou le
+                            bénéficiaire.<br /><br />
+
+                            Cette rencontre permet d’échanger :<br /><br />
+                            Sur le type de séances<br />
+                            Sur le référant volontaire<br />
+                            Sur la personnalisation du projet<br />
+                            Sur Le choix des animaux<br />
+                            Sur le nombre de participants<br />
+                            Sur le nombre de séances<br />
+                            Sur Le devis<br />
+                            Sur la rédaction d’une convention.
+                        </p>
+                    </div>
+                    <div class="offset-md-3 col-md-8 wow fadeIn" style="margin-top: 4%; animation-delay: 0.3s;">
+                        <img src="images/chienchat.png" class="img-fluid"/>
+                    </div>
+                    <h2 class="text-center wow fadeIn">Les bienfaits des séances pour les bénéficiaires</h2>
+                
+                <div class="row wow fadeIn" style="margin-left: 5%; margin-top: 6%; margin-bottom: -4%;">
+                    <div class="col-lg-4 col-md-8"><img src="images/langueauchat.png" class="img-fluid dicton" /></div>
+                    <div class="col-lg-4 col-md-8"><img src="images/poildelabete.png" class="img-fluid dicton" /></div>
+                    <div class="col-lg-4 col-md-8"><img src="images/stress.png" class="img-fluid dicton" /></div>
+                </div>
+                <div class="chinchilla wow slideInRight" style="animation-delay: 0.5s;"><img src="images/chinchilla.png"/></div>
+                <div class="offset-md-2 col-md-8 wow fadeIn" style="margin-top: 10%; animation-delay: 0.5s;">
+                   
+                    <div class="texteliste"><ul class="liste">
+                        <li>Améliorer leur niveau d’<span class="mea">autonomie</span> (mémoire, motricité, communication, sphère affective)</li>
+                        <li>Lutter contre leur isolement (perte des repères familiaux et manque d’interactions sociales)</li>
+                        <li><span class="mea">Les revaloriser</span> dans leurs capacités</li>
+                        <li>Leur Apporter du <span class="mea">réconfort</span> au quotidien</li>
+                        <li>Bienfaits Sensoriel, toucher écouter, sentir, caresser, observer.</li><br/>
+                     
+                     Les effets bénéfiques s’étendent généralement aux équipes de soin encadrantes : 
+                     <li><span class="mea">Apaisement</span> du personnel en présence des animaux</li>
+                        <li>Tissage de <span class="mea">nouveaux liens</span> entre soignants et soignés</li>
+                        <li>Soulagement et <span class="mea">fluidité</span> dans le travail quotidien car les patients se sentent mieux.</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <footer class="sticky-footer">
+                <div class="container text-center bas">© Textes & images de Jennifer Poli <br />
+                    © Site par <a href="http://www.anthonycollette.fr">Anthony Collette</a><br />
+                    Mentions légales</div>
+            </footer>
+        </div>
+
+    </body>
+
+</html>
